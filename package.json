@@ -1,0 +1,39 @@
+{
+  "name": "complgen-syntax-highlight",
+  "displayName": "complgen-syntax-highlight",
+  "description": "Compleat/ComplGen Syntax Highlighting for VSCode",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.125.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [
+      {
+        "id": "compleat",
+        "aliases": [
+          "compleat",
+          "complgen"
+        ],
+        "extensions": [
+          ".usage",
+          ".compleat",
+          ".complgen"
+        ],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "compleat",
+        "scopeName": "source.usage",
+        "path": "./syntaxes/compleat.tmLanguage.json",
+        "embeddedLanguages": {
+          "source.shell": "shellscript"
+        }
+      }
+    ]
+  }
+}
