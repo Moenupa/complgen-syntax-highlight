@@ -1,13 +1,32 @@
 {
-  "name": "complgen-syntax-highlight",
-  "displayName": "complgen-syntax-highlight",
-  "description": "Compleat/ComplGen Syntax Highlighting for VSCode",
-  "version": "0.0.1",
+  "name": "complgen-syntax",
+  "displayName": "complgen-syntax",
+  "description": "Compleat/ComplGen Syntax for VSCode",
+  "version": "0.1.0",
+  "publisher": "moenupa",
+  "icon": "icon.png",
+  "license": "MIT",
+  "homepage": "https://github.com/Moenupa/complgen-syntax",
+  "bugs": {
+    "url": "https://github.com/Moenupa/complgen-syntax/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Moenupa/complgen-syntax"
+  },
   "engines": {
-    "vscode": "^1.125.0"
+    "vscode": "^1.85.0"
   },
   "categories": [
     "Programming Languages"
+  ],
+  "keywords": [
+    "compleat",
+    "complgen",
+    "completion",
+    "textmate",
+    "syntax",
+    "language support"
   ],
   "contributes": {
     "languages": [

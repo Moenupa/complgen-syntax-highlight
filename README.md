@@ -1,10 +1,16 @@
-# Compleat/Complgen Syntax Highlight for VSCode
+# Compleat/Complgen Syntax for VSCode
+
+![https://github.com/Moenupa/complgen-syntax](https://img.shields.io/badge/Moenupa/complgen--syntax-2B3137?logo=github)
+![https://vsmarketplacebadges.dev/version/moenupa.complgen-syntax.svg](https://marketplace.visualstudio.com/items?itemName=moenupa.complgen-syntax)
+![https://vsmarketplacebadges.dev/downloads-short/moenupa.complgen-syntax.svg](https://marketplace.visualstudio.com/items?itemName=moenupa.complgen-syntax)
 
 Syntax highlight for [compleat][compleat]/[complgen][complgen],
 a unified completion generation language for multiple shells such as bash, zsh, fish and powershell.
 
 [compleat]: https://github.com/mbrubeck/compleat
 [complgen]: https://github.com/adaszko/complgen
+
+## Syntax
 
 We prioritize syntax highlighting **complgen** grammars,
 due to its active development and extended features over **compleat**.
@@ -13,9 +19,9 @@ We describe the implemented syntax rules derived from `complgen@v0.10.1` from
 
 [complgenreadme]: https://github.com/adaszko/complgen#readme
 
-A usage file `*.usage` contains commands and definitions, separated by semicolons.
+A _usage_ file `*.usage` contains commands and definitions, separated by semicolons.
 
-A _command_ consists of a command name followed by a pattern. The command name can be any atom. If there is more than one command in the file, compleat will attempt to match each of them against the input line.
+A _command_ consists of a command name followed by a pattern. The command name can be any atom. If there is more than one command in the file, we will attempt to match each of them against the input line.
 
 An _atom_ consists of letters, numbers, and any of the characters `_-`, starting with a letter or underscore.
 
@@ -41,3 +47,12 @@ Variables and Constants:
 - [CG] Predefined variables (default constants, though overridable):
   `<PATH>` and `<DIRECTORY>` match file and directory paths, respectively.
 - `<USER@bash>` and `<USER@fish>` define the `<USER>` variable, but are shell-specific.
+
+## Attribution
+
+Syntax based on [complgen grammar][complgengrammar] by [Adam Szkoda][adaszko].
+
+[complgengrammar]: https://github.com/adaszko/complgen
+[adaszko]: https://github.com/adaszko
+
+Icon from <a href="https://www.flaticon.com/free-icons/keyboard-key" title="keyboard-key icons">Keyboard-key icons created by littleicon - Flaticon</a>.
