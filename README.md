@@ -1,8 +1,8 @@
 # Compleat/Complgen Syntax for VSCode
 
 ![https://github.com/Moenupa/complgen-syntax](https://img.shields.io/badge/Moenupa/complgen--syntax-2B3137?logo=github)
-![https://vsmarketplacebadges.dev/version/moenupa.complgen-syntax.svg](https://marketplace.visualstudio.com/items?itemName=moenupa.complgen-syntax)
-![https://vsmarketplacebadges.dev/downloads-short/moenupa.complgen-syntax.svg](https://marketplace.visualstudio.com/items?itemName=moenupa.complgen-syntax)
+![https://marketplace.visualstudio.com/items?itemName=moenupa.complgen-syntax](https://vsmarketplacebadges.dev/version/moenupa.complgen-syntax.svg)
+![https://marketplace.visualstudio.com/items?itemName=moenupa.complgen-syntax](https://vsmarketplacebadges.dev/downloads-short/moenupa.complgen-syntax.svg)
 
 Syntax highlight for [compleat][compleat]/[complgen][complgen],
 a unified completion generation language for multiple shells such as bash, zsh, fish and powershell.
